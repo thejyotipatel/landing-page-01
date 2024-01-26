@@ -1,0 +1,5 @@
+$purple: (
+  'purple': #8064a2,
+);
+
+$theme-colors: map-merge($theme-colors, $purple);
