@@ -1,6 +1,11 @@
-// .hero-component {
-//   display: inline-block;
-//   background: url('images/hero-01.png') right bottom no-repeat,
-//     url('images/hero-02.png') center bottom no-repeat;
-//   height: 100vh;
-// }
+.hero-component {
+  background: url('images/hero-01.png') bottom left no-repeat;
+}
+
+.password-strength p {
+  width: 60px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  margin-bottom: 0;
+}

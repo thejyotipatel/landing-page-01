@@ -66,7 +66,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <hr class='dropdown-divider' />
+                  <hr className='dropdown-divider' />
                 </li>
                 <li>
                   <a className='dropdown-item' href='#'>
@@ -74,7 +74,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <hr class='dropdown-divider' />
+                  <hr className='dropdown-divider' />
                 </li>
                 <li>
                   <a className='dropdown-item' href='#'>
@@ -82,7 +82,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <hr class='dropdown-divider' />
+                  <hr className='dropdown-divider' />
                 </li>
                 <li>
                   <a className='dropdown-item' href='#'>
@@ -90,7 +90,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <hr class='dropdown-divider' />
+                  <hr className='dropdown-divider' />
                 </li>
                 <li>
                   <a className='dropdown-item' href='#'>
@@ -112,7 +112,7 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <a className='nav-link text-purple ' href='#'>
-                <i class='bi bi-bookmark-fill'></i>
+                <i className='bi bi-bookmark-fill'></i>
               </a>
             </li>
 
@@ -123,11 +123,11 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <a className='nav-link text-purple mw-25 ' href='#'>
-                <i class='bi bi-cart-fill w-25'></i>
+                <i className='bi bi-cart-fill w-25'></i>
               </a>
             </li>
             <li className='nav-item'>
-              <button class='btn   btn-outline-purple ' type='button'>
+              <button className='btn   btn-outline-purple ' type='button'>
                 Sign In
               </button>
             </li>
