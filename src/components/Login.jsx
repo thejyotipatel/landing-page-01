@@ -1,7 +1,7 @@
 const Login = ({ active }) => {
   return (
     <>
-      <div className='vstack gap-3  mt-4 mx-auto '>
+      <div className='vstack gap-3  mt-4 mx-md-5'>
         <button
           type='button'
           // className='btn fw-semibold w-100 btn-outline-purple text-black d-flex   align-items-center justify-content-around'
@@ -28,7 +28,9 @@ const Login = ({ active }) => {
             className=' col w-100   border border-gray'
             style={{ marginTop: '12px' }}
           />
-          <small className='col fw-semibold ms-1'>Or connect with</small>
+          <small className='col fw-semibold ms-1' style={{ fontSize: '12px' }}>
+            Or connect with
+          </small>
           <span
             className=' col w-100 border border-gray'
             style={{ marginTop: '12px' }}
