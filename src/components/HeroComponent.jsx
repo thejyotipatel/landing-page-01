@@ -5,7 +5,8 @@ const HeroComponent = () => {
   const [active, setActive] = useState(true)
 
   return (
-    <div className='bg-body-tertiary bg-secondary hero-component'>
+    // <div className='bg-body-tertiary bg-secondary hero-component'>
+    <div className='bg-purple bg-opacity-10 '>
       <div className='container-lg   pt-5'>
         <div className='row  row-cols-1 row-cols-sm-1 row-cols-md-2 justify-content-between '>
           <div className='col'>

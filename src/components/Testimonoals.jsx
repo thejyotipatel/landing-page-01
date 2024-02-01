@@ -21,6 +21,15 @@ const Testimonoals = () => {
               activities in my city, all under one roof, is an excellent idea
               and I highly recommend it.
             </p>
+            <div className='row'>
+              <div className='col'>
+                <p className='audio-box'></p>
+              </div>
+              <div className='col'>
+                <h2 className=''>Shubha Nagarajan</h2>
+                <p className='text-primary'>Classical Dancer</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
