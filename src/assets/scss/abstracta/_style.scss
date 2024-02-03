@@ -23,3 +23,10 @@
   border-radius: 2px;
   margin-bottom: 0;
 }
+.box-contant {
+  // min-width: 435px !important;
+  // gap: 10px !important;
+  & .btn {
+    width: fit-content !important;
+  }
+}

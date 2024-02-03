@@ -1,11 +1,46 @@
+import { CardBody } from 'react-bootstrap'
+import { BoxesData } from './Data'
 const Boxes = () => {
   return (
     <>
       {/* <div className='bg-purple bg-opacity-10  '> */}
       <div className='bg-light'>
         <div className='container'>
-          <div className='row row-cols-1 row-cols-sm-1 row-cols-sm-2 justify-content-center'>
-            <div className='col border border-light-subtle bg-light p-4 w-25-sm'>
+          <div className=' row  '>
+            {/* <div className=' d-flex justify-content-center flex-wrap gap-3  '> */}
+            {BoxesData.map((item) => {
+              return (
+                <div className='col-sm-6 p-2' key={item.id}>
+                  <div
+                    className='card w-100 h-100'
+                    // className='col border border-light-subtle bg-light box-contant '
+                  >
+                    <div className='card-body'>
+                      {/* <div className='m-3 box-contant d-flex flex-column justify-content-start  gap-2 '> */}
+                      <h5 className='card-title d-flex gap-2'>
+                        {item?.icon}
+                        {item?.img && (
+                          <img
+                            src={item?.img}
+                            alt={item.title}
+                            className='d-inline-flex'
+                          />
+                        )}
+                        {item.title}
+                      </h5>
+                      <p className='card-text '>{item.text}</p>
+                      <a href='#' className='btn btn-outline-purple '>
+                        {item.butText}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                // </div>
+              )
+            })}
+          </div>
+          {/* <div className='row row-cols-1 row-cols-sm-1 row-cols-sm-2 justify-content-center'>
+            <div className='col border border-light-subtle bg-light p-4 box-contant '>
               <h5 className='fw-bold'>
                 <img src='images/pople.svg' alt='' className='me-3' />
                 People
@@ -52,7 +87,7 @@ const Boxes = () => {
               </p>
               <button className='btn btn-outline-purple'>Attend</button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
