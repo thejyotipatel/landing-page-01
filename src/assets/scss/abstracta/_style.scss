@@ -1,0 +1,32 @@
+// .hero-component {
+//   background: url('images/hero-01.png') bottom left no-repeat,
+//     url('images/hero-01.png') bottom center no-repeat cover;
+// }
+.hero-bg-img1 {
+  & img {
+    min-width: 200px;
+    width: 100%;
+  }
+}
+.hero-bg-img2 {
+  width: min-content;
+
+  & img {
+    min-width: 200px;
+    width: 100%;
+  }
+}
+.password-strength p {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+  margin-bottom: 0;
+}
+.box-contant {
+  // min-width: 435px !important;
+  // gap: 10px !important;
+  & .btn {
+    width: fit-content !important;
+  }
+}
