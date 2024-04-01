@@ -1,5 +1,10 @@
 $purple: (
   'purple': #8064a2,
 );
-
 $theme-colors: map-merge($theme-colors, $purple);
+
+$form-range-track-height: 0.2rem;
+$form-range-track-bg: #fff;
+$form-range-thumb-bg: #8064a2;
+$form-range-thumb-width: 0.6rem;
+$form-range-thumb-height: 0.6rem;

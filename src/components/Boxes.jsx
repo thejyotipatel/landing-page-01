@@ -17,8 +17,8 @@ const Boxes = () => {
                   >
                     <div className='m-3 card-body d-grid gap-3'>
                       {/* <div className='m-3 box-contant d-flex flex-column justify-content-start  gap-2 '> */}
-                      <h4 className='d-flex card-title gap-2'>
-                        {item?.icon}
+                      <h4 className='d-flex card-title gap-3'>
+                        <span className='fs-3'>{item?.icon}</span>
 
                         {item.title}
                       </h4>
@@ -42,8 +42,8 @@ const Boxes = () => {
           <div className='py-5'>
             <div className='card w-100 h-100'>
               <div className='m-3 card-body d-grid gap-3'>
-                <h4 className='card-title d-flex gap-2'>
-                  <i class='bi bi-plus-circle-fill text-primary fs-5' />
+                <h4 className='card-title d-flex gap-3'>
+                  <i class='bi bi-plus-circle-fill text-primary fs-3' />
                   Add your own
                 </h4>
                 <p className='card-text '>
