@@ -37,13 +37,7 @@ const Testimonoals = () => {
                   <p className='   '>
                     <i class='bi bi-mic-fill'></i>
                   </p>
-                  <img
-                    src='image
-                  
-                  s/person01.png'
-                    alt=''
-                    className='w-100'
-                  />
+                  <img src='images/person01.png' alt='' className='w-100' />
                 </p>
               </div>
               <div className='col'>
