@@ -4,16 +4,17 @@ import HeroComponent from './components/HeroComponent'
 import Boxes from './components/Boxes'
 import Testimonoals from './components/Testimonoals'
 import AddNewLinstingPage from './components/AddNewLinstingPage'
+import CommunityComponent from './components/CommunityComponent'
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <HeroComponent />
-      <Boxes />
+      {/* <HeroComponent /> */}
+      {/* <Boxes /> */}
       {/* <AddNewLinstingPage /> */}
-      <Testimonoals />
-
+      {/* <Testimonoals /> */}
+      <CommunityComponent />
       <Footer />
     </>
   )

@@ -27,17 +27,17 @@ const Testimonoals = () => {
                 is an excellent idea and I highly recommend it.
               </p>
 
-              <div className='row gap-5 '>
-                <div className=' col-6 col-sm-4    position-relative w-100 '>
-                  <div className='bg-purple bg-opacity-25  d-flex rounded align-items-center   gap-3 h-auto w-75'>
-                    <i class='bi  bi-play-circle-fill text-purple fs-1   ' />
+              <div className='row align-items-center gap-sm-4 gap-0'>
+                <div className='col-12 col-sm-8 position-relative   '>
+                  <div className='bg-purple bg-opacity-25  d-flex rounded align-items-center gap-3 h-auto w-100 p-3'>
+                    <i class='bi  bi-play-circle-fill text-purple bg-white fs-1  rounded-circle d-flex' />
                     <input
                       type='range'
                       class='form-range'
                       defaultValue={0}
                       id='customRange3'
                     />
-                    <span className='fs-6 text-purple '>0.00</span>
+                    <span className='fs-6 text-purple'>0.00</span>
                     <div className=' '>
                       <p className=' position-absolute top-50  '>
                         <i class='bi bi-mic-fill fs-5 text-white'></i>
@@ -47,11 +47,13 @@ const Testimonoals = () => {
                   </div>
                 </div>
 
-                <div className='col-6 col-sm-4 d-flex gap-2'>
-                  <img src='images/person01.png' alt='' className='h-75' />
-                  <div className='vstack gap-0'>
-                    <h5 className='text-purple'>Shubha Nagarajan</h5>
-                    <p className='text-info'>Classical Dancer</p>
+                <div className='col-auto  '>
+                  <div className='d-flex gap-3 w-100'>
+                    <img src='images/person01.png' alt='' className='h-75' />
+                    <div className=' '>
+                      <h5 className='text-purple'>Shubha Nagarajan</h5>
+                      <p className='text-info'>Classical Dancer</p>
+                    </div>
                   </div>
                 </div>
               </div>

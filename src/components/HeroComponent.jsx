@@ -11,7 +11,7 @@ const HeroComponent = () => {
         <div className='row  row-cols-1 row-cols-sm-1 row-cols-md-2 justify-content-between '>
           <div className='col'>
             <h1 className='fst-italic'>
-              Explore your <span className='text-primary'>hobby</span> or
+              Explore your <span className='text-info'>hobby</span> or
               <span className='text-purple'> passion</span>
             </h1>
             <p>

@@ -43,7 +43,7 @@ const Boxes = () => {
             <div className='card w-100 h-100'>
               <div className='m-3 card-body d-grid gap-3'>
                 <h4 className='card-title d-flex gap-3'>
-                  <i class='bi bi-plus-circle-fill text-primary fs-3' />
+                  <i class='bi bi-plus-circle-fill text-info fs-3' />
                   Add your own
                 </h4>
                 <p className='card-text '>

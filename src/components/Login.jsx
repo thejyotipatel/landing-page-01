@@ -18,7 +18,7 @@ const Login = ({ active }) => {
           className='btn fw-semibold w-100 btn-outline-purple text-black d-flex  row m-0'
         >
           <div className='col-2'>
-            <img src='images/facebook.svg' alt='' />
+            <i class='bi bi-facebook mt-5 text-info'></i>
           </div>
           <p className='col m-0'>Continue with Facebook</p>
         </button>

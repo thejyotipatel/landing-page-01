@@ -23,7 +23,7 @@ export const BoxesData = [
   {
     id: 4,
     title: 'Program',
-    icon: <i className='bi bi-calendar-check-fill text-primary' />,
+    icon: <i className='bi bi-calendar-check-fill text-info' />,
     text: 'Find events, meetups and workshops related to your hobby. Register or buy tickets online.',
     butText: 'Attend',
   },
