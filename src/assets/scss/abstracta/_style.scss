@@ -8,6 +8,15 @@
     width: 100%;
   }
 }
+
+@media (width>=500px) {
+  .hero-bg-img1 {
+    & img {
+      max-width: 100px;
+      width: 100%;
+    }
+  }
+}
 .hero-bg-img2 {
   width: min-content;
 
@@ -29,4 +38,8 @@
   & .btn {
     width: fit-content !important;
   }
+}
+
+ul[role='list'] {
+  list-style: none;
 }
