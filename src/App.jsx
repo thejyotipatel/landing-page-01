@@ -10,10 +10,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      {/* <HeroComponent /> */}
-      {/* <Boxes /> */}
-      {/* <AddNewLinstingPage /> */}
-      {/* <Testimonoals /> */}
+      {/* <HeroComponent />
+      <Boxes />
+      <AddNewLinstingPage />
+      <Testimonoals /> */}
       <CommunityComponent />
       <Footer />
     </>

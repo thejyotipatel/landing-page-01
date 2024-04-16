@@ -4,7 +4,7 @@
 // }
 .hero-bg-img1 {
   & img {
-    min-width: 200px;
+    min-width: 230px;
     width: 100%;
   }
 }
@@ -23,6 +23,24 @@
   & img {
     min-width: 200px;
     width: 100%;
+  }
+}
+.community-bg-img {
+  width: calc(min(1000px, 95%));
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  & img {
+    width: 100%;
+  }
+}
+
+@media (width>=500px) {
+  .hero-bg-img2 {
+    & img {
+      max-width: 100px;
+      width: 100%;
+    }
   }
 }
 .password-strength p {

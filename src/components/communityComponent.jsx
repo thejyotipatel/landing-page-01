@@ -17,17 +17,11 @@ const CommunityComponent = () => {
             </div>
           </div>
 
-          <div className='  d-inline-flex container-lg  mt-5 pt-5 gap-4  hero-bg-img1'>
-            <img
-              src='images/community01.svg'
-              alt='community'
-              className=' col  img-fluid'
-            />
-            <img
-              src='images/community02.png'
-              alt='community'
-              className='col img-fluid'
-            />
+          <div className='  d-inline-flex container-lg  mt-5 pt-5 gap-4  '>
+            <div className='  community-bg-img'>
+              <img src='images/community01.svg' alt='community' />
+              <img src='images/community02.png' alt='community' />
+            </div>
           </div>
         </div>
       </div>

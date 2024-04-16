@@ -108,7 +108,7 @@ const Footer = () => {
 
               <ul
                 role='list'
-                className='nev d-flex gap-3 flex-row p-0 mt-3 mb-5 '
+                className='nev d-flex gap-3 flex-row p-0 mt-3 mb-5 flex-wrap '
               >
                 <li className='nav-item mb-2 d-flex'>
                   <a
@@ -177,13 +177,17 @@ const Footer = () => {
               </ul>
 
               <h5>Invite Friends</h5>
-              <inp5t
-                type='email'
-                className='form-control'
-                id='email'
-                placeholder='Email ID'
-              />
-              <button className='btn'>Invite</button>
+              <div className='d-flex w-75 mt-3'>
+                <input
+                  type='email'
+                  className='border border-end  rounded-start-2 px-3 py-2 w-75'
+                  id='email'
+                  placeholder='Email ID'
+                />
+                <button className='bg-purple text-white border  rounded-end px-3 py-2'>
+                  Invite
+                </button>
+              </div>
             </div>
           </div>
         </footer>
