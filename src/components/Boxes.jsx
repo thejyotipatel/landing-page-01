@@ -1,4 +1,3 @@
-import { CardBody } from 'react-bootstrap'
 import { BoxesData } from './Data'
 const Boxes = () => {
   return (
@@ -15,7 +14,7 @@ const Boxes = () => {
                     className='card w-100 h-100'
                     // className='col border border-light-subtle bg-light box-contant '
                   >
-                    <div className='card-body'>
+                    <div className='card-body p-5 d-grid gap-3'>
                       {/* <div className='m-3 box-contant d-flex flex-column justify-content-start  gap-2 '> */}
                       <h5 className='card-title d-flex gap-2'>
                         {item?.icon}
@@ -29,65 +28,34 @@ const Boxes = () => {
                         {item.title}
                       </h5>
                       <p className='card-text '>{item.text}</p>
-                      <a href='#' className='btn btn-outline-purple '>
+                      <a href='#' className='btn btn-outline-purple w-fit'>
                         {item.butText}
                       </a>
                     </div>
                   </div>
                 </div>
-                // </div>
               )
             })}
           </div>
-          {/* <div className='row row-cols-1 row-cols-sm-1 row-cols-sm-2 justify-content-center'>
-            <div className='col border border-light-subtle bg-light p-4 box-contant '>
-              <h5 className='fw-bold'>
-                <img src='images/pople.svg' alt='' className='me-3' />
-                People
-              </h5>
-              <p className='container-sm'>
-                Find a teacher, coach, or expert for your hobby interest in your
-                locality. Find a partner, teammate, accompanist or collaborator.
-              </p>
-              <button className='btn btn-outline-purple'>Connect</button>
-            </div>
-            <div className='col'>
-              <h4 className=''>
-                <i class='bi bi-geo-alt-fill'></i>
-                Place
-              </h4>
-              <p className=''>
-                Find a class, school, playground, auditorium, studio, shop or an
-                event venue. Book a slot at venues that allow booking through
-                hobbycue.
-              </p>
-              <button className='btn btn-outline-purple'>Meet up</button>
-            </div>
 
-            <div className='col'>
-              <h4 className=''>
-                <img src='/images/shopping.svg' alt='' className='' />
-                Product
-              </h4>
-              <p className=''>
-                Find equipment or supplies required for your hobby. Buy, rent or
-                borrow from shops, online stores or from community members.
-              </p>
-              <button className='btn btn-outline-purple'>Get it</button>
+          <div className=' row p-2'>
+            <div className='card w-100 h-100'>
+              <div className='card-body'>
+                <h5 className='card-title d-flex gap-2'>
+                  <i class='bi bi-plus-circle-fill text-primary' />
+                  Add your own
+                </h5>
+                <p className='card-text '>
+                  Are you a teacher or expert? Do you sell or rent out
+                  equipment, venue or event tickets? Or, you know someone who
+                  should be on hobbycue? Go ahead and Add your Own page
+                </p>
+                <a href='#' className='btn btn-outline-purple '>
+                  Add new
+                </a>
+              </div>
             </div>
-
-            <div className='col'>
-              <h4 className=''>
-                <i class='bi bi-calendar-check-fill'></i>
-                Program
-              </h4>
-              <p className=''>
-                Find events, meetups and workshops related to your hobby.
-                Register or buy tickets online.
-              </p>
-              <button className='btn btn-outline-purple'>Attend</button>
-            </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>

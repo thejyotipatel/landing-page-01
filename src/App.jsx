@@ -9,12 +9,12 @@ const App = () => {
   return (
     <>
       <Navbar />
-      {/* <HeroComponent /> */}
-      {/* <Boxes /> */}
-      <AddNewLinstingPage />
-      {/* <Testimonoals />
+      <HeroComponent />
+      <Boxes />
+      {/* <AddNewLinstingPage /> */}
+      {/* <Testimonoals /> */}
 
-      <Footer /> */}
+      <Footer />
     </>
   )
 }
